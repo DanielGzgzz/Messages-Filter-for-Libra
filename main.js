@@ -28,7 +28,7 @@
 	    this.Sentiment=require('sentiment');
 	    this.sentiment_analyzer= new this.Sentiment();
 	    this.initialized=true;
-		this.output="";
+		
 	
 	  }catch (error){
 	  console.log("[-] initializing failed "+error);
